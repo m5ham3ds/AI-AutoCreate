@@ -1,0 +1,57 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "title": "Create a time-lapse video",
+      "description": "Generate a time-lapse video from image sequence with smooth transitions and music",
+      "category": "Video",
+      "tags": ["time-lapse", "video", "transitions"],
+      "created_date": "2025-01-01 12:00:00",
+      "last_modified_date": "2025-01-01 12:00:00",
+      "usage_count": 0
+    },
+    {
+      "id": "2",
+      "title": "Write a short story",
+      "description": "Generate a creative short story with characters, plot development, and dialogue",
+      "category": "Script",
+      "tags": ["story", "creative", "characters"],
+      "created_date": "2025-01-01 12:00:00",
+      "last_modified_date": "2025-01-01 12:00:00",
+      "usage_count": 0
+    },
+    {
+      "id": "3",
+      "title": "Generate fantasy art",
+      "description": "Create fantasy-style artwork with magical elements and detailed backgrounds",
+      "category": "Image",
+      "tags": ["fantasy", "art", "magical"],
+      "created_date": "2025-01-01 12:00:00",
+      "last_modified_date": "2025-01-01 12:00:00",
+      "usage_count": 0
+    },
+    {
+      "id": "4",
+      "title": "Compose background music",
+      "description": "Generate ambient background music suitable for videos and presentations",
+      "category": "Audio",
+      "tags": ["music", "background", "ambient"],
+      "created_date": "2025-01-01 12:00:00",
+      "last_modified_date": "2025-01-01 12:00:00",
+      "usage_count": 0
+    },
+    {
+      "id": "5",
+      "title": "Create AI assistant",
+      "description": "Design an AI assistant interface for daily tasks and productivity",
+      "category": "General",
+      "tags": ["AI", "assistant", "productivity"],
+      "created_date": "2025-01-01 12:00:00",
+      "last_modified_date": "2025-01-01 12:00:00",
+      "usage_count": 0
+    }
+  ],
+  "categories": ["Video", "Script", "Image", "Audio", "General"],
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

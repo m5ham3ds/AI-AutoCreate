@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ai_autocreate">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity
+            android:name=".activities.ModelsManagerActivity"
+            android:label="@string/models_manager"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.VideoReimaginerActivity"
+            android:label="@string/video_reimaginer"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ScriptStudioActivity"
+            android:label="@string/script_studio"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ImageToStoryActivity"
+            android:label="@string/image_to_story"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.AudioReconstructorActivity"
+            android:label="@string/audio_reconstructor"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.AgentPlaygroundActivity"
+            android:label="@string/agent_playground"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.IdeaGalleryActivity"
+            android:label="@string/idea_gallery"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ActivityLogActivity"
+            android:label="@string/activity_log"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SubtitleStyleActivity"
+            android:label="@string.subtitle_style"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.APIKeysActivity"
+            android:label="@string/api_keys"
+            android:parentActivityName=".activities.SettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Services -->
+        <service
+            android:name=".services.ProcessingService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".services.TaskSchedulerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- Receivers -->
+        <receiver
+            android:name=".services.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".services.TaskReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        
+        <!-- File Provider for sharing files -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Notification Channels -->
+        <meta-data
+            android:name="notification_channels"
+            android:resource="@xml/notification_channels" />
+
+    </application>
+
+</manifest>

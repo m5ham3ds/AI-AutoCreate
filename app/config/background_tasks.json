@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    {
+      "id": "daily_cleanup",
+      "name": "Daily Cleanup",
+      "type": "cleanup",
+      "description": "Clean up temporary files and old logs",
+      "enabled": true,
+      "schedule": "daily",
+      "time": "02:00",
+      "interval": 86400000,
+      "parameters": {
+        "max_age_days": 7,
+        "cleanup_temp": true,
+        "cleanup_logs": true
+      },
+      "last_run": null,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "model_health_check",
+      "name": "Model Health Check",
+      "type": "health_check",
+      "description": "Check health of configured models",
+      "enabled": true,
+      "schedule": "weekly",
+      "time": "03:00",
+      "interval": 604800000,
+      "parameters": {
+        "timeout_ms": 30000,
+        "retry_count": 3
+      },
+      "last_run": null,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "storage_monitor",
+      "name": "Storage Monitor",
+      "type": "monitor",
+      "description": "Monitor storage usage and alert when low",
+      "enabled": true,
+      "schedule": "hourly",
+      "time": "00:00",
+      "interval": 3600000,
+      "parameters": {
+        "threshold_mb": 500,
+        "alert_enabled": true
+      },
+      "last_run": null,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

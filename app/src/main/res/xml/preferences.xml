@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.ListPreference
+        android:key="app_language"
+        android:title="@string/app_language"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values"
+        android:defaultValue="en" />
+
+    <android.support.v7.preference.ListPreference
+        android:key="app_theme"
+        android:title="@string/app_theme"
+        android:entries="@array/theme_options"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="system" />
+
+    <Preference
+        android:key="api_keys"
+        android:title="@string/api_keys"
+        android:summary="@string/manage_api_keys" />
+
+</android.support.v7.preference.PreferenceScreen>

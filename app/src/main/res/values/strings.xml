@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">AI AutoCreate</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation items -->
+    <string-array name="navigation_items">
+        <item>Home</item>
+        <item>Models Manager</item>
+        <item>Idea Gallery</item>
+        <item>Activity Log</item>
+    </string-array>
+
+    <!-- Main actions -->
+    <string name="action_settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="test">Test</string>
+            <string name="retry">Retry</string>
+            <string name="refresh">Refresh</string>
+            <string name="load">Load</string>
+            <string name="play">Play</string>
+            <string name="stop">Stop</string>
+            <string name="pause">Pause</string>
+            <string name="export">Export</string>
+            <string name="import">Import</string>
+
+            <!-- Home Fragment -->
+            <string name="prompt_hint">Enter your prompt here...</string>
+            <string name="generate">Generate</string>
+            <string name="video_reimaginer">Video Reimaginer</string>
+            <string name="script_studio">Script Studio</string>
+            <string name="image_to_story">Image to Story</string>
+            <string name="audio_reconstructor">Audio Reconstructor</string>
+            <string name="please_enter_prompt">Please enter a prompt</string>
+            <string name="initializing">Initializing...</string>
+            <string name="running_sanity_check">Running sanity check...</string>
+            <string name="creating_project_config">Creating project configuration...</string>
+            <string name="running_orchestrator">Running orchestrator...</string>
+            <string name="generating_content">Generating content...</string>
+            <string name="finalizing_project">Finalizing project...</string>
+            <string name="content_generated_successfully">Content generated successfully</string>
+            <string name="content_generation_failed">Content generation failed</string>
+            <string name="success">Success</string>
+            <string name="error">Error</string>
+            <string name="view_project">View Project</string>
+            <string name="create_new">Create New</string>
+
+            <!-- Models Manager -->
+            <string name="models_manager">Models Manager</string>
+            <string name="add_new_model">Add New Model</string>
+            <string name="model_name">Model Name</string>
+            <string name="model_id">Model ID</string>
+            <string name="model_endpoint">Model Endpoint</string>
+            <string name="model_api_key">API Key</string>
+            <string name="model_type">Model Type</string>
+            <string name="model_category">Model Category</string>
+            <string name="model_description">Description</string>
+            <string name="required_fields_empty">Required fields cannot be empty</string>
+            <string name="model_added_successfully">Model added successfully</string>
+            <string name="error_adding_model">Error adding model</string>
+            <string name="edit_model">Edit Model</string>
+            <string name="model_updated_successfully">Model updated successfully</string>
+            <string name="error_updating_model">Error updating model</string>
+            <string name="delete_model">Delete Model</string>
+            <string name="confirm_delete_model">Are you sure you want to delete %s?</string>
+            <string name="model_deleted_successfully">Model deleted successfully</string>
+            <string name="test_model">Test Model</string>
+            <string name="test_all">Test All</string>
+            <string name="testing">Testing...</string>
+            <string name="model_test_successful">Model test successful</string>
+            <string name="model_test_failed">Model test failed</string>
+            <string name="all_models_tested">All models tested</string>
+            <string name="action_import_models">Import Models</string>
+            <string name="action_export_models">Export Models</string>
+
+            <!-- Settings -->
+            <string name="settings">Settings</string>
+            <string name="app_language">App Language</string>
+            <string name="app_theme">App Theme</string>
+            <string name="api_keys">API Keys</string>
+            <string name="reset_settings">Reset Settings</string>
+            <string name="reset_settings_confirmation">Are you sure you want to reset all settings to default?</string>
+            <string name="restart_required">Restart Required</string>
+            <string name="restart_language_message">The app needs to be restarted to apply the language change.</string>
+            <string name="restart_theme_message">The app needs to be restarted to apply the theme change.</string>
+            <string name="restart_now">Restart Now</string>
+            <string name="restart_later">Restart Later</string>
+
+            <!-- API Keys -->
+            <string name="api_keys_management">API Keys Management</string>
+            <string name="add_api_key">Add API Key</string>
+            <string name="edit_api_key">Edit API Key</string>
+            <string name="delete_api_key">Delete API Key</string>
+            <string name="api_key_name">Key Name</string>
+            <string name="api_key_value">API Key</string>
+            <string name="api_key_description">Description (Optional)</string>
+            <string name="api_key_added">API key added</string>
+            <string name="error_adding_api_key">Error adding API key</string>
+            <string name="api_key_updated">API key updated</string>
+            <string name="error_updating_api_key">Error updating API key</string>
+            <string name="api_key_deleted">API key deleted</string>
+            <string name="confirm_delete_api_key">Are you sure you want to delete %s?</string>
+            <string name="action_import_api_keys">Import API Keys</string>
+            <string name="action_export_api_keys">Export API Keys</string>
+            <string name="manage_api_keys">Manage API keys</string>
+
+            <!-- Other Activities -->
+            <string name="agent_playground">Agent Playground</string>
+            <string name="idea_gallery">Idea Gallery</string>
+            <string name="activity_log">Activity Log</string>
+            <string name="subtitle_style">Subtitle Style</string>
+
+            <!-- Test Fragment -->
+            <string name="system_tests">System Tests</string>
+            <string name="run_all_tests">Run All Tests</string>
+            <string name="clear_results">Clear Results</string>
+            <string name="test_results_cleared">Test results cleared</string>
+            <string name="view_details">View Details</string>
+
+            <!-- FFmpeg Fragment -->
+            <string name="ffmpeg_command_runner">FFmpeg Command Runner</string>
+            <string name="presets">Presets</string>
+            <string name="run_command">Run Command</string>
+            <string name="enter_ffmpeg_command">Enter FFmpeg command</string>
+            <string name="output">Output</string>
+            <string name="command_completed_successfully">Command completed successfully</string>
+            <string name="command_failed">Command failed</string>
+            <string name="select_preset">Select Preset</string>
+
+            <!-- Video Reimaginer -->
+            <string name="select_video">Select Video</string>
+            <string name="change_video">Change Video</string>
+            <string name="please_select_video">Please select a video</string>
+            <string name="error_copying_video">Error copying video</string>
+            <string name="error_getting_video_path">Error getting video path</string>
+            <string name="enter_reimagining_prompt">Enter reimagining prompt</string>
+            <string name="process_video">Process Video</string>
+            <string name="analyzing_video">Analyzing video...</string>
+            <string name="generating_reimagined_video">Generating reimagined video...</string>
+            <string name="video_processed_successfully">Video processed successfully</string>
+            <string name="video_processing_failed">Video processing failed</string>
+            <string name="view_result">View Result</string>
+            <string name="error_loading_video">Error loading video</string>
+            <string name="action_save_project">Save Project</string>
+            <string name="project_saved">Project saved</string>
+
+            <!-- Script Studio -->
+            <string name="script">Script</string>
+            <string name="generate_script">Generate Script</string>
+            <string name="generating_script">Generating script...</string>
+            <string name="script_generated_successfully">Script generated successfully</string>
+            <string name="script_generation_failed">Script generation failed</string>
+            <string name="script_is_empty">Script is empty</string>
+            <string name="script_saved_successfully">Script saved successfully</string>
+            <string name="error_saving_script">Error saving script</string>
+            <string name="load_script_feature">Load script feature</string>
+            <string name="enter_script_prompt">Enter script prompt</string>
+            <string name="action_export_script">Export Script</string>
+            <string name="action_import_script">Import Script</string>
+            <string name="export_script_feature">Export script feature</string>
+            <string name="import_script_feature">Import script feature</string>
+
+            <!-- Image to Story -->
+            <string name="select_image">Select Image</string>
+            <string name="change_image">Change Image</string>
+            <string name="please_select_image">Please select an image</string>
+            <string name="error_copying_image">Error copying image</string>
+            <string name="error_getting_image_path">Error getting image path</string>
+            <string name="enter_story_prompt">Enter story prompt</string>
+            <string name="generate_story">Generate Story</string>
+            <string name="analyzing_image">Analyzing image...</string>
+            <string name="generating_story">Generating story...</string>
+            <string name="story_generated_successfully">Story generated successfully</string>
+            <string name="story_generation_failed">Story generation failed</string>
+            <string name="story_is_empty">Story is empty</string>
+            <string name="story_saved_successfully">Story saved successfully</string>
+            <string name="error_saving_story">Error saving story</string>
+            <string name="generated_story">Generated Story</string>
+            <string name="action_export_story">Export Story</string>
+            <string name="export_story_feature">Export story feature</string>
+            <string name="selected_image">Selected Image</string>
+
+            <!-- Audio Reconstructor -->
+            <string name="select_audio">Select Audio</string>
+            <string name="change_audio">Change Audio</string>
+            <string name="please_select_audio">Please select an audio file</string>
+            <string name="error_copying_audio">Error copying audio</string>
+            <string name="error_getting_audio_path">Error getting audio path</string>
+            <string name="enter_audio_prompt">Enter audio reconstruction prompt</string>
+            <string name="generate_audio">Generate Audio</string>
+            <string name="analyzing_audio">Analyzing audio...</string>
+            <string name="generating_audio">Generating audio...</string>
+            <string name="audio_generated_successfully">Audio generated successfully</string>
+            <string name="audio_generation_failed">Audio generation failed</string>
+            <string name="no_audio_to_play">No audio to play</string>
+            <string name="error_playing_audio">Error playing audio</string>
+            <string name="audio_saved_successfully">Audio saved successfully</string>
+            <string name="error_saving_audio">Error saving audio</string>
+            <string name="source_audio">Source Audio</string>
+            <string name="result">Result</string>
+            <string name="action_export_audio">Export Audio</string>
+            <string name="export_audio_feature">Export audio feature</string>
+
+            <!-- General -->
+            <string name="prompt">Prompt</string>
+            <string name="type">Type</string>
+            <string name="category">Category</string>
+            <string name="status">Status</string>
+            <string name="tools">Tools</string>
+            <string name="already_processing">Already processing</string>
+            <string name="processing_started">Processing started</string>
+            <string name="processing_paused">Processing paused</string>
+            <string name="processing_cancelled">Processing cancelled</string>
+            <string name="processing_resumed">Processing resumed</string>
+            <string name="processing_completed">Processing completed</string>
+            <string name="processing_completed_successfully">Processing completed successfully</string>
+            <string name="please_enter_command">Please enter a command</string>
+
+            <!-- Notification Channels -->
+            <string name="processing_channel_name">Processing</string>
+            <string name="processing_channel_description">Shows processing progress and status</string>
+            <string name="stage_updates_channel_name">Stage Updates</string>
+            <string name="stage_updates_channel_description">Shows updates for each processing stage</string>
+            <string name="errors_channel_name">Errors</string>
+            <string name="errors_channel_description">Shows error notifications</string>
+            <string name="completed_channel_name">Completed</string>
+            <string name="completed_channel_description">Shows completion notifications</string>
+
+            <!-- Agent Playground -->
+            <string name="agent_playground">Agent Playground</string>
+            <string name="select_agent">Select Agent</string>
+            <string name="please_enter_input">Please enter input</string>
+            <string name="enter_input">Enter input</string>
+            <string name="output">Output</string>
+            <string name="export_results">Export Results</string>
+            <string name="clear_history">Clear History</string>
+            <string name="clear_history_confirmation">Are you sure you want to clear all test history?</string>
+            <string name="history_cleared">History cleared</string>
+            <string name="export_results_feature">Export results feature</string>
+            <string name="loading_agents">Loading agents...</string>
+
+            <!-- Idea Gallery -->
+            <string name="idea_gallery">Idea Gallery</string>
+            <string name="search">Search</string>
+            <string name="add_new_idea">Add New Idea</string>
+            <string name="idea_title">Idea Title</string>
+            <string name="idea_description">Idea Description</string>
+            <string name="edit_idea">Edit Idea</string>
+            <string name="delete_idea">Delete Idea</string>
+            <string name="confirm_delete_idea">Are you sure you want to delete "%s"?</string>
+            <string name="idea_added">Idea added</string>
+            <string name="error_adding_idea">Error adding idea</string>
+            <string name="idea_updated">Idea updated</string>
+            <string name="idea_deleted">Idea deleted</string>
+            <string name="idea_selected">Idea selected</string>
+            <string name="loading_ideas">Loading ideas...</string>
+            <string name="error_loading_ideas">Error loading ideas</string>
+            <string name="import_ideas">Import Ideas</string>
+            <string name="export_ideas">Export Ideas</string>
+            <string name="import_ideas_feature">Import ideas feature</string>
+            <string name="export_ideas_feature">Export ideas feature</string>
+            <string name="generated_story">Generated Story</string>
+            <string name="selected_image">Selected Image</string>
+
+            <!-- Activity Log -->
+            <string name="activity_log">Activity Log</string>
+            <string name="filter">Filter</string>
+            <string name="clear_logs">Clear Logs</string>
+            <string name="clear_all_logs">Clear All Logs</string>
+            <string name="clear_old_logs">Clear Old Logs</string>
+            <string name="clear_error_logs">Clear Error Logs</string>
+            <string name="clear_logs_confirmation">Are you sure you want to clear logs?</string>
+            <string name="logs_cleared">Logs cleared</string>
+            <string name="error_clearing_logs">Error clearing logs</string>
+            <string name="loading_logs">Loading logs...</string>
+            <string name="error_loading_logs">Error loading logs</string>
+            <string name="exporting_logs">Exporting logs...</string>
+            <string name="error_exporting_logs">Error exporting logs</string>
+            <string name="logs_exported">Logs exported</string>
+
+            <!-- Subtitle Style -->
+            <string name="subtitle_style">Subtitle Style</string>
+            <string name="preview">Preview</string>
+            <string name="font_settings">Font Settings</string>
+            <string name="font_name">Font Name</string>
+            <string name="font_size">Font Size</string>
+            <string name="alpha">Alpha</string>
+            <string name="font_color">Font Color</string>
+            <string name="position_settings">Position Settings</string>
+            <string name="position">Position</string>
+            <string name="alignment">Alignment</string>
+            <string name="shadow">Shadow</string>
+            <string name="shadow_radius">Shadow Radius</string>
+            <string name="shadow_offset">Shadow Offset</string>
+            <string name="shadow_color">Shadow Color</string>
+            <string name="outline">Outline</string>
+            <string name="outline_width">Outline Width</string>
+            <string name="outline_color">Outline Color</string>
+            <string name="background">Background</string>
+            <string name="background_padding">Background Padding</string>
+            <string name="background_color">Background Color</string>
+            <string name="apply_globally">Apply Globally</string>
+            <string name="save_preset">Save Preset</string>
+            <string name="load_preset">Load Preset</string>
+            <string name="preset_name">Preset Name</string>
+            <string name="style_saved">Style saved</string>
+            <string name="error_saving_style">Error saving style</string>
+            <string name="preset_saved">Preset saved</string>
+            <string name="preset_loaded">Preset loaded</string>
+            <string name="error_loading_presets">Error loading presets</string>
+            <string name="loading_models">Loading models...</string>
+            <string name="error_deleting_model">Error deleting model</string>
+
+            <!-- General -->
+            <string name="use_idea">Use Idea</string>
+            <string name="duplicate">Duplicate</string>
+            <string name="category_background">Category Background</string>
+            
+            <!-- Projects Adapter -->
+            <string name="project_thumbnail">Project Thumbnail</string>
+            <string name="open">Open</string>
+            <string name="loading_projects">Loading projects...</string>
+            <string name="error_loading_projects">Error loading projects</string>
+            <string name="project_deleted">Project deleted</string>
+            <string name="project_exported">Project exported</string>
+            <string name="error_deleting_project">Error deleting project</string>
+            <string name="error_exporting_project">Error exporting project</string>
+            
+            <!-- Theme options -->
+            <string-array name="theme_options">
+                <item>Light</item>
+                <item>Dark</item>
+                <item>System Default</item>
+            </string-array>
+
+            <string-array name="theme_values">
+                <item>light</item>
+                <item>dark</item>
+                <item>system</item>
+            </string-array>
+
+            <!-- Language options -->
+            <string-array name="language_options">
+                <item>English</item>
+                <item>العربية</item>
+            </string-array>
+
+            <string-array name="language_values">
+                <item>en</item>
+                <item>ar</item>
+            </string-array>
+
+            <!-- Model types -->
+            <string-array name="model_types">
+                <item>Text</item>
+                <item>Image</item>
+                <item>Audio</item>
+                <item>Video</item>
+            </string-array>
+
+            <!-- Model categories -->
+            <string-array name="model_categories">
+                <item>Text Generation</item>
+                <item>Image Generation</item>
+                <item>Audio Generation</item>
+                <item>Audio Effects</item>
+                <item>Video Effects</item>
+                <item>Text-to-Speech</item>
+                <item>Speech-to-Text</item>
+            </string-array>
+</resources>

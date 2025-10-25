@@ -1,0 +1,30 @@
+{
+  "style_id": "default_ar",
+  "font_file": "/storage/emulated/0/AIAutoCreate/fonts/MyArabicFont.ttf",
+  "font_name": "MyArabicFont",
+  "font_size_sp": 28,
+  "font_color_argb": "#EEFFFFFF",
+  "alpha": 0.93,
+  "shadow": {
+    "enabled": true,
+    "radius": 3,
+    "dx": 1,
+    "dy": 1,
+    "color": "#99000000"
+  },
+  "outline": {
+    "enabled": true,
+    "width": 3,
+    "color": "#000000"
+  },
+  "background_box": {
+    "enabled": true,
+    "color": "#80000000",
+    "padding_dp": 8
+  },
+  "position": "bottom_center",
+  "alignment": "center",
+  "apply_globally": true,
+  "created_at": "2025-01-01T00:00:00Z",
+  "last_modified": "2025-01-01T00:00:00Z"
+}

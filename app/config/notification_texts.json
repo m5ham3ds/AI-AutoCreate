@@ -1,0 +1,52 @@
+{
+  "texts": {
+    "en": {
+      "processing_started": "Processing started",
+      "processing_completed": "Processing completed",
+      "processing_failed": "Processing failed",
+      "processing_cancelled": "Processing cancelled",
+      "processing_paused": "Processing paused",
+      "processing_resumed": "Processing resumed",
+      "stage_completed": "Stage completed: %s",
+      "stage_failed": "Stage failed: %s",
+      "error_occurred": "Error occurred: %s",
+      "project_saved": "Project saved successfully",
+      "model_tested": "Model test completed",
+      "all_models_tested": "All models tested"
+    },
+    "ar": {
+      "processing_started": "بدأت المعالجة",
+      "processing_completed": "اكتملت المعالجة",
+      "processing_failed": "فشلت المعالجة",
+      "processing_cancelled": "تم إلغاء المعالجة",
+      "processing_paused": "تم إيقاف المعالجة مؤقتًا",
+      "processing_resumed": "تم استئناف المعالجة",
+      "stage_completed": "اكتملت المرحلة: %s",
+      "stage_failed": "فشلت المرحلة: %s",
+      "error_occurred": "حدث خطأ: %s",
+      "project_saved": "تم حفظ المشروع بنجاح",
+      "model_tested": "اكتمل اختبار النموذج",
+      "all_models_tested": "تم اختبار جميع النماذج"
+    }
+  },
+  "channels": {
+    "processing": {
+      "en": "Processing",
+      "ar": "المعالجة"
+    },
+    "stage_updates": {
+      "en": "Stage Updates",
+      "ar": "تحديثات المراحل"
+    },
+    "errors": {
+      "en": "Errors",
+      "ar": "الأخطاء"
+    },
+    "completed": {
+      "en": "Completed",
+      "ar": "مكتمل"
+    }
+  },
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

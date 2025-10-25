@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_import_ideas"
+        android:icon="@drawable/ic_import"
+        android:title="@string/import_ideas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_export_ideas"
+        android:icon="@drawable/ic_export"
+        android:title="@string/export_ideas"
+        app:showAsAction="ifRoom" />
+</menu>

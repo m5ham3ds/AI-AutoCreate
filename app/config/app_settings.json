@@ -1,0 +1,38 @@
+{
+  "app_language": "en",
+  "app_theme": "system",
+  "default_text_model": "huggingface-default",
+  "default_image_model": "stable-diffusion",
+  "default_audio_model": "whisper-tiny",
+  "auto_save_projects": true,
+  "max_projects_count": 50,
+  "notification_enabled": true,
+  "debug_mode": false,
+  "auto_cleanup_enabled": true,
+  "cleanup_interval_days": 7,
+  "max_log_files": 100,
+  "quality_settings": {
+    "image_quality": "medium",
+    "video_quality": "medium",
+    "audio_quality": "medium"
+  },
+  "performance_settings": {
+    "max_concurrent_tasks": 2,
+    "timeout_ms": 30000,
+    "retry_count": 3,
+    "cache_enabled": true,
+    "cache_size_mb": 100
+  },
+  "privacy_settings": {
+    "analytics_enabled": false,
+    "crash_reporting": false,
+    "usage_statistics": false
+  },
+  "experimental_features": {
+    "enabled": false,
+    "beta_models": false,
+    "advanced_settings": false
+  },
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

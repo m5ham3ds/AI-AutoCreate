@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ffmpeg_command_runner"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/preset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string.presets"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_background_secondary" />
+
+            <Button
+                android:id="@+id/run_command_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/run_command"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/command_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string.enter_ffmpeg_command"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/output"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/output_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="monospace"
+            android:gravity="top"
+            android:minHeight="200dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">AI AutoCreate</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">فتح القائمة الجانبية</string>
+    <string name="navigation_drawer_close">إغلاق القائمة الجانبية</string>
+
+    <!-- Navigation items -->
+    <string-array name="navigation_items">
+        <item>الرئيسية</item>
+        <item>مدير النماذج</item>
+        <item>معرض الأفكار</item>
+        <item>سجل النشاط</item>
+    </string-array>
+
+    <!-- Main actions -->
+    <string name="action_settings">الإعدادات</string>
+    <string name="add">إضافة</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="test">اختبار</string>
+            <string name="retry">إعادة المحاولة</string>
+            <string name="refresh">تحديث</string>
+            <string name="load">تحميل</string>
+            <string name="play">تشغيل</string>
+            <string name="stop">إيقاف</string>
+            <string name="pause">إيقاف مؤقت</string>
+            <string name="export">تصدير</string>
+            <string name="import">استيراد</string>
+
+            <!-- Home Fragment -->
+            <string name="prompt_hint">أدخل طلبك هنا...</string>
+            <string name="generate">توليد</string>
+            <string name="video_reimaginer">إعادة تخيل الفيديو</string>
+            <string name="script_studio">استوديو السيناريو</string>
+            <string name="image_to_story">صورة إلى قصة</string>
+            <string name="audio_reconstructor">إعادة بناء الصوت</string>
+            <string name="please_enter_prompt">الرجاء إدخال طلب</string>
+            <string name="initializing">جاري التهيئة...</string>
+            <string name="running_sanity_check">جاري فحص التوافق...</string>
+            <string name="creating_project_config">إنشاء إعدادات المشروع...</string>
+            <string name="running_orchestrator">تشغيل المنسق...</string>
+            <string name="generating_content">جاري توليد المحتوى...</string>
+            <string name="finalizing_project">إنهاء المشروع...</string>
+            <string name="content_generated_successfully">تم توليد المحتوى بنجاح</string>
+            <string name="content_generation_failed">فشل توليد المحتوى</string>
+            <string name="success">نجاح</string>
+            <string name="error">خطأ</string>
+            <string name="view_project">عرض المشروع</string>
+            <string name="create_new">إنشاء جديد</string>
+
+            <!-- Models Manager -->
+            <string name="models_manager">مدير النماذج</string>
+            <string name="add_new_model">إضافة نموذج جديد</string>
+            <string name="model_name">اسم النموذج</string>
+            <string name="model_id">معرف النموذج</string>
+            <string name="model_endpoint">نقطة النهاية للنموذج</string>
+            <string name="model_api_key">مفتاح API</string>
+            <string name="model_type">نوع النموذج</string>
+            <string name="model_category">فئة النموذج</string>
+            <string name="model_description">الوصف</string>
+            <string name="required_fields_empty">الحقول المطلوبة لا يمكن أن تكون فارغة</string>
+            <string name="model_added_successfully">تمت إضافة النموذج بنجاح</string>
+            <string name="error_adding_model">خطأ في إضافة النموذج</string>
+            <string name="edit_model">تعديل النموذج</string>
+            <string name="model_updated_successfully">تم تحديث النموذج بنجاح</string>
+            <string name="error_updating_model">خطأ في تحديث النموذج</string>
+            <string name="delete_model">حذف النموذج</string>
+            <string name="confirm_delete_model">هل أنت متأكد من حذف %s؟</string>
+            <string name="model_deleted_successfully">تم حذف النموذج بنجاح</string>
+            <string name="test_model">اختبار النموذج</string>
+            <string name="test_all">اختبار الكل</string>
+            <string name="testing">جاري الاختبار...</string>
+            <string name="model_test_successful">نجح اختبار النموذج</string>
+            <string name="model_test_failed">فشل اختبار النموذج</string>
+            <string name="all_models_tested">تم اختبار جميع النماذج</string>
+            <string name="action_import_models">استيراد النماذج</string>
+            <string name="action_export_models">تصدير النماذج</string>
+
+            <!-- Settings -->
+            <string name="settings">الإعدادات</string>
+            <string name="app_language">لغة التطبيق</string>
+            <string name="app_theme">مظهر التطبيق</string>
+            <string name="api_keys">مفاتيح API</string>
+            <string name="reset_settings">إعادة تعيين الإعدادات</string>
+            <string name="reset_settings_confirmation">هل أنت متأكد من إعادة تعيين جميع الإعدادات إلى الافتراضية؟</string>
+            <string name="restart_required">إعادة التشغيل مطلوبة</string>
+            <string name="restart_language_message">يجب إعادة تشغيل التطبيق لتطبيق تغيير اللغة.</string>
+            <string name="restart_theme_message">يجب إعادة تشغيل التطبيق لتطبيق تغيير المظهر.</string>
+            <string name="restart_now">إعادة التشغيل الآن</string>
+            <string name="restart_later">لاحقًا</string>
+
+            <!-- API Keys -->
+            <string name="api_keys_management">إدارة مفاتيح API</string>
+            <string name="add_api_key">إضافة مفتاح API</string>
+            <string name="edit_api_key">تعديل مفتاح API</string>
+            <string name="delete_api_key">حذف مفتاح API</string>
+            <string name="api_key_name">اسم المفتاح</string>
+            <string name="api_key_value">مفتاح API</string>
+            <string name="api_key_description">الوصف (اختياري)</string>
+            <string name="api_key_added">تمت إضافة مفتاح API</string>
+            <string name="error_adding_api_key">خطأ في إضافة مفتاح API</string>
+            <string name="api_key_updated">تم تحديث مفتاح API</string>
+            <string name="error_updating_api_key">خطأ في تحديث مفتاح API</string>
+            <string name="api_key_deleted">تم حذف مفتاح API</string>
+            <string name="confirm_delete_api_key">هل أنت متأكد من حذف %s؟</string>
+            <string name="action_import_api_keys">استيراد مفاتيح API</string>
+            <string name="action_export_api_keys">تصدير مفاتيح API</string>
+            <string name="manage_api_keys">إدارة مفاتيح API</string>
+
+            <!-- Other Activities -->
+            <string name="agent_playground">ملعب الوكلاء</string>
+            <string name="idea_gallery">معرض الأفكار</string>
+            <string name="activity_log">سجل النشاط</string>
+            <string name="subtitle_style">نمط الترجمة</string>
+
+            <!-- Test Fragment -->
+            <string name="system_tests">اختبارات النظام</string>
+            <string name="run_all_tests">تشغيل جميع الاختبارات</string>
+            <string name="clear_results">مسح النتائج</string>
+            <string name="test_results_cleared">تم مسح نتائج الاختبار</string>
+            <string name="view_details">عرض التفاصيل</string>
+
+            <!-- FFmpeg Fragment -->
+            <string name="ffmpeg_command_runner">مشغل أوامر FFmpeg</string>
+            <string name="presets">الإعدادات المسبقة</string>
+            <string name="run_command">تشغيل الأمر</string>
+            <string name="enter_ffmpeg_command">أدخل أمر FFmpeg</string>
+            <string name="output">الإخراج</string>
+            <string name="command_completed_successfully">اكتمل الأمر بنجاح</string>
+            <string name="command_failed">فشل الأمر</string>
+            <string name="select_preset">اختر إعداد مسبق</string>
+
+            <!-- Video Reimaginer -->
+            <string name="select_video">اختر فيديو</string>
+            <string name="change_video">تغيير الفيديو</string>
+            <string name="please_select_video">الرجاء اختيار فيديو</string>
+            <string name="error_copying_video">خطأ في نسخ الفيديو</string>
+            <string name="error_getting_video_path">خطأ في الحصول على مسار الفيديو</string>
+            <string name="enter_reimagining_prompt">أدخل طلب إعادة التخيل</string>
+            <string name="process_video">معالجة الفيديو</string>
+            <string name="analyzing_video">جاري تحليل الفيديو...</string>
+            <string name="generating_reimagined_video">جاري إنشاء الفيديو المعاد تخيله...</string>
+            <string name="video_processed_successfully">تمت معالجة الفيديو بنجاح</string>
+            <string name="video_processing_failed">فشلت معالجة الفيديو</string>
+            <string name="view_result">عرض النتيجة</string>
+            <string name="error_loading_video">خطأ في تحميل الفيديو</string>
+            <string name="action_save_project">حفظ المشروع</string>
+            <string name="project_saved">تم حفظ المشروع</string>
+
+            <!-- Script Studio -->
+            <string name="script">السيناريو</string>
+            <string name="generate_script">توليد سيناريو</string>
+            <string name="generating_script">جاري توليد السيناريو...</string>
+            <string name="script_generated_successfully">تم توليد السيناريو بنجاح</string>
+            <string name="script_generation_failed">فشل توليد السيناريو</string>
+            <string name="script_is_empty">السيناريو فارغ</string>
+            <string name="script_saved_successfully">تم حفظ السيناريو بنجاح</string>
+            <string name="error_saving_script">خطأ في حفظ السيناريو</string>
+            <string name="load_script_feature">ميزة تحميل السيناريو</string>
+            <string name="enter_script_prompt">أدخل طلب السيناريو</string>
+            <string name="action_export_script">تصدير السيناريو</string>
+            <string name="action_import_script">استيراد السيناريو</string>
+            <string name="export_script_feature">ميزة تصدير السيناريو</string>
+            <string name="import_script_feature">ميزة استيراد السيناريو</string>
+
+            <!-- Image to Story -->
+            <string name="select_image">اختر صورة</string>
+            <string name="change_image">تغيير الصورة</string>
+            <string name="please_select_image">الرجاء اختيار صورة</string>
+            <string name="error_copying_image">خطأ في نسخ الصورة</string>
+            <string name="error_getting_image_path">خطأ في الحصول على مسار الصورة</string>
+            <string name="enter_story_prompt">أدخل طلب القصة</string>
+            <string name="generate_story">توليد قصة</string>
+            <string name="analyzing_image">جاري تحليل الصورة...</string>
+            <string name="generating_story">جاري توليد القصة...</string>
+            <string name="story_generated_successfully">تم توليد القصة بنجاح</string>
+            <string name="story_generation_failed">فشل توليد القصة</string>
+            <string name="story_is_empty">القصة فارغة</string>
+            <string name="story_saved_successfully">تم حفظ القصة بنجاح</string>
+            <string name="error_saving_story">خطأ في حفظ القصة</string>
+            <string name="generated_story">القصة المولدة</string>
+            <string name="action_export_story">تصدير القصة</string>
+            <string name="export_story_feature">ميزة تصدير القصة</string>
+            <string name="selected_image">الصورة المحددة</string>
+
+            <!-- Audio Reconstructor -->
+            <string name="select_audio">اختر صوت</string>
+            <string name="change_audio">تغيير الصوت</string>
+            <string name="please_select_audio">الرجاء اختيار ملف صوتي</string>
+            <string name="error_copying_audio">خطأ في نسخ الصوت</string>
+            <string name="error_getting_audio_path">خطأ في الحصول على مسار الصوت</string>
+            <string name="enter_audio_prompt">أدخل طلب إعادة بناء الصوت</string>
+            <string name="generate_audio">توليد صوت</string>
+            <string name="analyzing_audio">جاري تحليل الصوت...</string>
+            <string name="generating_audio">جاري توليد الصوت...</string>
+            <string name="audio_generated_successfully">تم توليد الصوت بنجاح</string>
+            <string name="audio_generation_failed">فشل توليد الصوت</string>
+            <string name="no_audio_to_play">لا يوجد صوت للتشغيل</string>
+            <string name="error_playing_audio">خطأ في تشغيل الصوت</string>
+            <string name="audio_saved_successfully">تم حفظ الصوت بنجاح</string>
+            <string name="error_saving_audio">خطأ في حفظ الصوت</string>
+            <string name="source_audio">الصوت المصدر</string>
+            <string name="result">النتيجة</string>
+            <string name="action_export_audio">تصدير الصوت</string>
+            <string name="export_audio_feature">ميزة تصدير الصوت</string>
+
+            <!-- General -->
+            <string name="prompt">الطلب</string>
+            <string name="type">النوع</string>
+            <string name="category">الفئة</string>
+            <string name="status">الحالة</string>
+            <string name="tools">الأدوات</string>
+            <string name="already_processing">جاري المعالجة بالفعل</string>
+            <string name="processing_started">بدأت المعالجة</string>
+            <string name="processing_paused">تم إيقاف المعالجة مؤقتًا</string>
+            <string name="processing_cancelled">تم إلغاء المعالجة</string>
+            <string name="processing_resumed">تم استئناف المعالجة</string>
+            <string name="processing_completed">اكتملت المعالجة</string>
+            <string name="processing_completed_successfully">اكتملت المعالجة بنجاح</string>
+            <string name="please_enter_command">الرجاء إدخال أمر</string>
+
+            <!-- Notification Channels -->
+            <string name="processing_channel_name">المعالجة</string>
+            <string name="processing_channel_description">يظهر تقدم المعالجة والحالة</string>
+            <string name="stage_updates_channel_name">تحديثات المراحل</string>
+            <string name="stage_updates_channel_description">يظهر تحديثات لكل مرحلة معالجة</string>
+            <string name="errors_channel_name">الأخطاء</string>
+            <string name="errors_channel_description">يظهر إشعارات الأخطاء</string>
+            <string name="completed_channel_name">مكتمل</string>
+            <string name="completed_channel_description">يظهر إشعارات الإنجاز</string>
+
+            <!-- Agent Playground -->
+            <string name="agent_playground">ملعب الوكلاء</string>
+            <string name="select_agent">اختر الوكيل</string>
+            <string name="please_enter_input">الرجاء إدخال المدخلات</string>
+            <string name="enter_input">أدخل المدخلات</string>
+            <string name="export_results">تصدير النتائج</string>
+            <string name="clear_history">مسح السجل</string>
+            <string name="clear_history_confirmation">هل أنت متأكد من مسح سجل الاختبارات بالكامل؟</string>
+            <string name="history_cleared">تم مسح السجل</string>
+            <string name="export_results_feature">ميزة تصدير النتائج</string>
+            <string name="loading_agents">جاري تحميل الوكلاء...</string>
+
+            <!-- Idea Gallery -->
+            <string name="idea_gallery">معرض الأفكار</string>
+            <string name="search">بحث</string>
+            <string name="add_new_idea">إضافة فكرة جديدة</string>
+            <string name="idea_title">عنوان الفكرة</string>
+            <string name="idea_description">وصف الفكرة</string>
+            <string name="edit_idea">تعديل الفكرة</string>
+            <string name="delete_idea">حذف الفكرة</string>
+            <string name="confirm_delete_idea">هل أنت متأكد من حذف "%s"؟</string>
+            <string name="idea_added">تمت إضافة الفكرة</string>
+            <string name="error_adding_idea">خطأ في إضافة الفكرة</string>
+            <string name="idea_updated">تم تحديث الفكرة</string>
+            <string name="idea_deleted">تم حذف الفكرة</string>
+            <string name="idea_selected">تم اختيار الفكرة</string>
+            <string name="loading_ideas">جاري تحميل الأفكار...</string>
+            <string name="error_loading_ideas">خطأ في تحميل الأفكار</string>
+            <string name="import_ideas">استيراد الأفكار</string>
+            <string name="export_ideas">تصدير الأفكار</string>
+            <string name="import_ideas_feature">ميزة استيراد الأفكار</string>
+            <string name="export_ideas_feature">ميزة تصدير الأفكار</string>
+            <string name="generated_story">القصة المولدة</string>
+            <string name="selected_image">الصورة المحددة</string>
+
+            <!-- Activity Log -->
+            <string name="activity_log">سجل النشاط</string>
+            <string name="filter">تصفية</string>
+            <string name="clear_logs">مسح السجلات</string>
+            <string name="clear_all_logs">مسح جميع السجلات</string>
+            <string name="clear_old_logs">مسح السجلات القديمة</string>
+            <string name="clear_error_logs">مسح سجلات الأخطاء</string>
+            <string name="clear_logs_confirmation">هل أنت متأكد من مسح السجلات؟</string>
+            <string name="logs_cleared">تم مسح السجلات</string>
+            <string name="error_clearing_logs">خطأ في مسح السجلات</string>
+            <string name="loading_logs">جاري تحميل السجلات...</string>
+            <string name="error_loading_logs">خطأ في تحميل السجلات</string>
+            <string name="exporting_logs">جاري تصدير السجلات...</string>
+            <string name="error_exporting_logs">خطأ في تصدير السجلات</string>
+            <string name="logs_exported">تم تصدير السجلات</string>
+
+            <!-- Subtitle Style -->
+            <string name="subtitle_style">نمط الترجمة</string>
+            <string name="preview">معاينة</string>
+            <string name="font_settings">إعدادات الخط</string>
+            <string name="font_name">اسم الخط</string>
+            <string name="font_size">حجم الخط</string>
+            <string name="alpha">الشفافية</string>
+            <string name="font_color">لون الخط</string>
+            <string name="position_settings">إعدادات الموضع</string>
+            <string name="position">الموضع</string>
+            <string name="alignment">المحاذاة</string>
+            <string name="shadow">الظل</string>
+            <string name="shadow_radius">نصف قطر الظل</string>
+            <string name="shadow_offset">إزاحة الظل</string>
+            <string name="shadow_color">لون الظل</string>
+            <string name="outline">الحد الخارجي</string>
+            <string name="outline_width">عرض الحد الخارجي</string>
+            <string name="outline_color">لون الحد الخارجي</string>
+            <string name="background">الخلفية</string>
+            <string name="background_padding">حشو الخلفية</string>
+            <string name="background_color">لون الخلفية</string>
+            <string name="apply_globally">تطبيق عالمياً</string>
+            <string name="save_preset">حفظ الإعداد المسبق</string>
+            <string name="load_preset">تحميل الإعداد المسبق</string>
+            <string name="preset_name">اسم الإعداد المسبق</string>
+            <string name="style_saved">تم حفظ النمط</string>
+            <string name="error_saving_style">خطأ في حفظ النمط</string>
+            <string name="preset_saved">تم حفظ الإعداد المسبق</string>
+            <string name="preset_loaded">تم تحميل الإعداد المسبق</string>
+            <string name="error_loading_presets">خطأ في تحميل الإعدادات المسبقة</string>
+            <string name="loading_models">جاري تحميل النماذج...</string>
+            <string name="error_deleting_model">خطأ في حذف النموذج</string>
+
+            <!-- General -->
+            <string name="use_idea">استخدم الفكرة</string>
+            <string name="duplicate">تكرار</string>
+            <string name="category_background">خلفية الفئة</string>
+            
+            <!-- Projects Adapter -->
+            <string name="project_thumbnail">صورة المشروع المصغرة</string>
+            <string name="open">فتح</string>
+            <string name="loading_projects">جاري تحميل المشاريع...</string>
+            <string name="error_loading_projects">خطأ في تحميل المشاريع</string>
+            <string name="project_deleted">تم حذف المشروع</string>
+            <string name="project_exported">تم تصدير المشروع</string>
+            <string name="error_deleting_project">خطأ في حذف المشروع</string>
+            <string name="error_exporting_project">خطأ في تصدير المشروع</string>
+            
+            <!-- Theme options -->
+            <string-array name="theme_options">
+                <item>فاتح</item>
+                <item>داكن</item>
+                <item>افتراضي النظام</item>
+            </string-array>
+
+            <string-array name="theme_values">
+                <item>light</item>
+                <item>dark</item>
+                <item>system</item>
+            </string-array>
+
+            <!-- Language options -->
+            <string-array name="language_options">
+                <item>English</item>
+                <item>العربية</item>
+            </string-array>
+
+            <string-array name="language_values">
+                <item>en</item>
+                <item>ar</item>
+            </string-array>
+
+            <!-- Model types -->
+            <string-array name="model_types">
+                <item>نص</item>
+                <item>صورة</item>
+                <item>صوت</item>
+                <item>فيديو</item>
+            </string-array>
+
+            <!-- Model categories -->
+            <string-array name="model_categories">
+                <item>توليد النصوص</item>
+                <item>توليد الصور</item>
+                <item>توليد الصوت</item>
+                <item>المؤثرات الصوتية</item>
+                <item>المؤثرات البصرية</item>
+                <item>نص إلى كلام</item>
+                <item>كلام إلى نص</item>
+            </string-array>
+</resources>

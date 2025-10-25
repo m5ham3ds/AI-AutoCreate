@@ -1,0 +1,76 @@
+{
+  "models": [
+    {
+      "id": "huggingface-default",
+      "name": "Hugging Face Default",
+      "type": "text",
+      "endpoint": "https://api-inference.huggingface.co/models/",
+      "requires_api_key": true,
+      "description": "Default Hugging Face model for text generation",
+      "category": "text",
+      "status": "untested",
+      "api_key": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_tested": null
+    },
+    {
+      "id": "gemini-pro",
+      "name": "Gemini Pro",
+      "type": "text",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/",
+      "requires_api_key": true,
+      "description": "Google's Gemini Pro model for advanced text generation",
+      "category": "text",
+      "status": "untested",
+      "api_key": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_tested": null
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "type": "image",
+      "endpoint": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2",
+      "requires_api_key": false,
+      "description": "Stable Diffusion model for image generation",
+      "category": "image",
+      "status": "untested",
+      "api_key": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_tested": null
+    },
+    {
+      "id": "whisper-tiny",
+      "name": "Whisper Tiny",
+      "type": "audio",
+      "endpoint": "https://api-inference.huggingface.co/models/openai/whisper-tiny",
+      "requires_api_key": false,
+      "description": "Whisper Tiny model for speech-to-text",
+      "category": "audio",
+      "status": "untested",
+      "api_key": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_tested": null
+    },
+    {
+      "id": "musicgen-small",
+      "name": "MusicGen Small",
+      "type": "audio",
+      "endpoint": "https://api-inference.huggingface.co/models/facebook/musicgen-small",
+      "requires_api_key": false,
+      "description": "MusicGen Small model for music generation",
+      "category": "audio",
+      "status": "untested",
+      "api_key": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_tested": null
+    }
+  ],
+  "default_models": {
+    "text": "huggingface-default",
+    "image": "stable-diffusion",
+    "audio": "whisper-tiny"
+  },
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

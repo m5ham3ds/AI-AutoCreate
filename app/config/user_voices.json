@@ -1,0 +1,59 @@
+{
+  "voices": [
+    {
+      "id": "default_male",
+      "name": "Default Male",
+      "language": "en",
+      "gender": "male",
+      "age": "adult",
+      "accent": "neutral",
+      "pitch": 1.0,
+      "speed": 1.0,
+      "emotion": "neutral",
+      "model_id": "default-tts",
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "default_female",
+      "name": "Default Female",
+      "language": "en",
+      "gender": "female",
+      "age": "adult",
+      "accent": "neutral",
+      "pitch": 1.2,
+      "speed": 1.0,
+      "emotion": "neutral",
+      "model_id": "default-tts",
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "arabic_male",
+      "name": "Arabic Male",
+      "language": "ar",
+      "gender": "male",
+      "age": "adult",
+      "accent": "standard",
+      "pitch": 0.9,
+      "speed": 0.9,
+      "emotion": "neutral",
+      "model_id": "arabic-tts",
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "arabic_female",
+      "name": "Arabic Female",
+      "language": "ar",
+      "gender": "female",
+      "age": "adult",
+      "accent": "standard",
+      "pitch": 1.1,
+      "speed": 0.9,
+      "emotion": "neutral",
+      "model_id": "arabic-tts",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "default_voice": "default_male",
+  "version": "1.0.0",
+  "last_updated": "2025-01-01T00:00:00Z"
+}

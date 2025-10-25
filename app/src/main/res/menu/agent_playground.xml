@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_export_results"
+        android:icon="@drawable/ic_export"
+        android:title="@string/export_results"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_clear_history"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/clear_history"
+        app:showAsAction="ifRoom" />
+</menu>
